@@ -33,29 +33,33 @@ body {
 .postit .descrizione {
   font-size: 1.8em;
 }
+.postit:hover {
+  transform: rotate(0deg) scale(1.2);
+  box-shadow: 5px 3px 10px 4px black;
+}
 
-/* ROTATION */
-#postit1 {
+/* ROTATION and COLOR*/
+.postit1 {
   background-color: rgb(253, 253, 155);
   transform: rotate(-10deg);
   transition: all 0.5s;
 }
-#postit2 {
+.postit2 {
   background-color: rgb(116, 255, 160);
   transform: rotate(10deg);
   transition: all 0.5s;
 }
-#postit3 {
-  background-color: rgb(253, 253, 155);
+.postit3 {
+  background-color: rgb(176, 238, 254);
   transform: rotate(-10deg);
   transition: all 0.5s;
 }
-#postit4 {
-  background-color: rgb(176, 238, 254);
+.postit4 {
+  background-color: rgb(236, 188, 250);
   transform: rotate(10deg);
   transition: all 0.5s;
 }
-#postit5 {
+/* #postit5 {
   background-color: rgb(236, 188, 250);
   transform: rotate(-10deg);
   transition: all 0.5s;
@@ -74,15 +78,9 @@ body {
   background-color: rgb(153, 187, 255);
   transform: rotate(10deg);
   transition: all 0.5s;
-}
+} */
 
-/* hover */
-
-#postit1:hover {
-  transform: rotate(0deg) scale(1.2);
-  box-shadow: 5px 3px 10px 4px black;
-}
-#postit2:hover {
+/*#postit2:hover {
   transform: rotate(0deg) scale(1.2);
   box-shadow: 5px 3px 10px 4px black;
 }
@@ -109,4 +107,4 @@ body {
 #postit8:hover {
   transform: rotate(0deg) scale(1.2);
   box-shadow: 5px 3px 10px 4px black;
-}
+} */
